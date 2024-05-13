@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOEBAC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">SHOEBAC</h1>  
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#sobre-a-loja">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#destaques">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Destaques
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#categorias">
+                            <i class="bi bi-card-text me-1"></i>
+                            Categorias
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#contato">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>          
+        </div>
+    </header>
+<div data-bs-spy="scroll" data-bs-target="cabecalho">
+    <section id="sobre-a-loja">
+        <div class="carousel slide w-100" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner w-100">
+                <div class="carousel-item active w-100" data-bs-interval="3000">
+                    <img src="images/slides/slide1.jpg" class="w-100" alt="tenis feminino rosa e cinza">
+                </div>
+                <div class="carousel-item w-100" data-bs-interval="3000">
+                    <img src="images/slides/slide2.jpg" alt="sapatenis cinza" class="w-100">
+                </div>
+                <div class="carousel-item w-100" data-bs-interval="3000">
+                    <img src="images/slides/slide3.jpg" alt="sandalia de bebê marrom" class="w-100">
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <spam class="carousel-control-prev-icon"></spam>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <spam class="carousel-control-next-icon"></spam>
+                </button>
+            </div>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+        <div class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="images/sapataria.jpg" class="d-block w-100 rounded" alt="Foto de sapatos">
+                    </div>
+                    <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title">Sobre <span class="text-colored">a loja</span></h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic sapiente temporibus error ipsam in, itaque illo ratione eius? Magnam consectetur consequatur dicta quod sed aut modi nisi asperiores, perspiciatis vero.</p>
+                        <h3 class="section-title">Sobre <span class="text-colored">os nossos produtos</span></h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae veritatis ipsum consequatur laudantium, autem quia voluptate ab dolorem harum itaque quasi! Magnam saepe necessitatibus deserunt quidem numquam excepturi, exercitationem quam.</p>
+                        <ul>
+                            <li>item1</li>
+                            <li>item2</li>
+                            <li>item3</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="destaques" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center pb-4">Para todas <span class="text-colored">as ocasiões</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/eventos/corrida.jpg" alt="" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title text-colored fs-4">
+                        <i class="bi bi-rocket"></i>
+                        Corridas
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae exercitationem vitae aperiam commodi rem velit id asperiores impedit, voluptates, labore voluptatem nemo. Quis necessitatibus itaque tempore corrupti rerum? Magni, fuga.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/eventos/trilha.jpg" alt="" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title text-colored fs-4">
+                        <i class="bi bi-image-fill"></i>
+                        Aventuras
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae exercitationem vitae aperiam commodi rem velit id asperiores impedit, voluptates, labore voluptatem nemo. Quis necessitatibus itaque tempore corrupti rerum? Magni, fuga.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/eventos/chique.jpg" alt="" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title text-colored fs-4">
+                        <i class="bi bi-people-fill"></i>
+                        Confraternizações
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae exercitationem vitae aperiam commodi rem velit id asperiores impedit, voluptates, labore voluptatem nemo. Quis necessitatibus itaque tempore corrupti rerum? Magni, fuga.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="categorias" class=" pt-5 pb-5">
+        <div class="container border-top">
+            <h2>CATEGORIAS</h2>
+            <nav class="nav nav-tabs nav-tabs-lg">
+                <button data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link text-bg-dark active" type="button">Feminino</button>
+                <button data-bs-toggle="tab" data-bs-target="#aba2" class="nav-link text-bg-dark" type="button">Infantil</button>
+                <button data-bs-toggle="tab" data-bs-target="#aba3" class="nav-link text-bg-dark" type="button">Masculino</button>
+            </nav>
+            <div class="tab-content">
+                <div id="aba1" class="tab-pane active">
+                    <div class="container">
+                        <div class="container">
+                            <div class="row">
+                                <h2 class="section-title text-center mb-5">
+                                    Nossos <span class="text-colored">Produtos </span>
+                                </h2>                
+                            </div>
+                            <div class="row">
+                                <aside class="col-md-2">
+                                    <nav class="nav nav-pills flex-column nav-cardapio">
+                                        <button type="button" data-bs-toggle="tab" data-bs-target="#chinelos" class="fw-bold text-start nav-link text-colored active">Chinelos</button>
+                                        <button type="button" data-bs-toggle="tab" data-bs-target="#sandalias" class="fw-bold text-start nav-link text-colored">Sandálias</button>
+                                        <button type="button" data-bs-toggle="tab" data-bs-target="#tenis" class="fw-bold text-start nav-link text-colored">Tênis</button>
+                                        <button type="button" data-bs-toggle="tab" data-bs-target="#botas" class="fw-bold text-start nav-link text-colored">Botas</button>
+                                        <button type="button" data-bs-toggle="tab" data-bs-target="#sapatilhas" class="fw-bold text-start nav-link text-colored">Sapatilhas</button>
+                                    </nav>
+                                </aside>
+                                <div class="col-md-10">
+                                    <div class="tab-content">
+                                        <div class="tab-pane active" id="chinelos">
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/feminino/chinelo1.jpg" alt="chinelo">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Chinelo X</h5>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/feminino/chinelo2.jpg" alt="Chinelo">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Chinelo Y</h5>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/feminino/chinelo1.jpg" alt="chinelo">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Chinelo Z</h5>
+                                                </div>                                              
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="sandalias">
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/feminino/sandalia1.jpg" alt="Sandalia">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Sandalia X</h5>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/feminino/sandalia2.jpg" alt="Sandalia">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Sandalia Y</h5>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/feminino/sandalia1.jpg" alt="Sandalia">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Sandalia Z</h5>
+                                                </div>                                
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="tenis">
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/feminino/tenis-f1.jpg" alt="Tênis">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Tênis X</h5>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/feminino/tenis-f2.jpg" alt="Tênis">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Tênis Y</h5>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/feminino/tenis-f3.jpg" alt="Tênis">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Tênis Z</h5>
+                                                </div>                                                                               
+                                            </div>
+                                        </div>    
+                                        <div class="tab-pane" id="botas">
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                        <img class="d-block w-100 rounded" src="images/produtos/feminino/bota1.jpg" alt="Botas">
+                                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                        <h5 class="text-colored fw-bold mt-2 text-center mb-4">Botas X</h5>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/feminino/bota2.jpg" alt="Botas">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Botas Y</h5>
+                                                </div> 
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/feminino/bota3.jpg" alt="Botas">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Botas Z</h5>
+                                                </div>                            
+                                            </div>
+                                        </div>    
+                                        <div class="tab-pane" id="sapatilhas">
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/feminino/sapatilhas1.jpg" alt="Sapatilhas">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Sapatilhas X</h5>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/feminino/sapatilhas2.jpg" alt="Sapatilhas">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Sapatilhas Y</h5>
+                                                </div>   
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/feminino/sapatilhas3.jpg" alt="Sapatilhas">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Sapatilhas Z</h5>
+                                                </div>         
+                                                
+                                            </div>
+                                        </div>    
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>                           
+                    </div>
+                </div>
+                <div id="aba2" class="tab-pane">
+                    <div class="container">
+                        <div class="container">
+                            <div class="row">
+                                <h2 class="section-title text-center mb-5">
+                                    Nossos <span class="text-colored">Produtos </span>
+                                </h2>                
+                            </div>
+                            <div class="row">
+                                <aside class="col-md-2">
+                                    <nav class="nav nav-pills flex-column nav-cardapio">
+                                        <button type="button" data-bs-toggle="tab" data-bs-target="#chinelos-i" class="fw-bold text-start nav-link text-colored active">Chinelos</button>
+                                        <button type="button" data-bs-toggle="tab" data-bs-target="#sapatenis-i" class="fw-bold text-start nav-link text-colored">Sapatenis</button>
+                                        <button type="button" data-bs-toggle="tab" data-bs-target="#tenis-i" class="fw-bold text-start nav-link text-colored">Tênis</button>
+                                        <button type="button" data-bs-toggle="tab" data-bs-target="#sandalias-i" class="fw-bold text-start nav-link text-colored">Sandalias</button>
+                                        <button type="button" data-bs-toggle="tab" data-bs-target="#patetes" class="fw-bold text-start nav-link text-colored">Patetes</button>
+                                    </nav>
+                                </aside>
+                                <div class="col-md-10">
+                                    <div class="tab-content">
+                                        <div class="tab-pane active" id="chinelos-i">
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/infantil/chinelo1.jpg" alt="Chinelo">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Chinelo X</h5>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/infantil/chinelo2.jpg" alt="Chinelo">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Chinelo Y</h5>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/infantil/chinelo3.jpg" alt="Chinelo">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Chinelo Z</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="sapatenis-i">
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/infantil/sapatenis1.jpg" alt="Sapatenis">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Sapatenis X</h5>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/infantil/sapatenis2.jpg" alt="Sapatenis">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Sapatenis Y</h5>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/infantil/sapatenis3.jpg" alt="Sapatenis">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Sapatenis Z</h5>
+                                                </div>                                 
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="tenis-i">
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/infantil/tenis1.jpg" alt="Tênis">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Tênis X</h5>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/infantil/tenis2.jpg" alt="Tênis">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Tênis Y</h5>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/infantil/tenis3.jpg" alt="Tênis">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Tênis Z</h5>
+                                                </div>                               
+                                            </div>
+                                        </div>    
+                                        <div class="tab-pane" id="sandalias-i">
+                                                <div class="row">
+                                                    <div class="col-md-3">
+                                                        <img class="d-block w-100 rounded" src="images/produtos/infantil/Sandalias1.jpg" alt="Sandalias">
+                                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                        <h5 class="text-colored fw-bold mt-2 text-center mb-4">Sandalias X</h5>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <img class="d-block w-100 rounded" src="images/produtos/infantil/Sandalias2.jpg" alt="Sandalias">
+                                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                        <h5 class="text-colored fw-bold mt-2 text-center mb-4">Sandalias Y</h5>
+                                                    </div> 
+                                                    <div class="col-md-3">
+                                                        <img class="d-block w-100 rounded" src="images/produtos/infantil/Sandalias3.jpg" alt="Sandalias">
+                                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                        <h5 class="text-colored fw-bold mt-2 text-center mb-4">Sandalias Z</h5>
+                                                    </div>                            
+                                                </div>
+                                        </div>    
+                                        <div class="tab-pane" id="patetes">
+                                                <div class="row">
+                                                    <div class="col-md-3">
+                                                        <img class="d-block w-100 rounded" src="images/produtos/infantil/Patetes1.jpg" alt="Patetes">
+                                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                        <h5 class="text-colored fw-bold mt-2 text-center mb-4">Patetes X</h5>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <img class="d-block w-100 rounded" src="images/produtos/infantil/Patetes2.jpg" alt="Patetes">
+                                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                        <h5 class="text-colored fw-bold mt-2 text-center mb-4">Patetes Y</h5>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <img class="d-block w-100 rounded" src="images/produtos/infantil/Patetes3.jpg" alt="Patetes">
+                                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                        <h5 class="text-colored fw-bold mt-2 text-center mb-4">Patetes Z</h5>
+                                                    </div>                                                               
+                                                </div>
+                                        </div>    
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>                          
+                    </div>                    
+                </div>
+                <div id="aba3" class="tab-pane">
+                    <div class="container">
+                        <div class="container">
+                            <div class="row">
+                                <h2 class="section-title text-center mb-5">
+                                    Nossos <span class="text-colored">Produtos </span>
+                                </h2>                
+                            </div>
+                            <div class="row">
+                                <aside class="col-md-2">
+                                    <nav class="nav nav-pills flex-column nav-cardapio">
+                                        <button type="button" data-bs-toggle="tab" data-bs-target="#chinelos-m" class="fw-bold text-start nav-link text-colored active">Chinelos</button>
+                                        <button type="button" data-bs-toggle="tab" data-bs-target="#sapatenis" class="fw-bold text-start nav-link text-colored">Sapatenis</button>
+                                        <button type="button" data-bs-toggle="tab" data-bs-target="#tenis-m" class="fw-bold text-start nav-link text-colored">Tênis</button>
+                                        <button type="button" data-bs-toggle="tab" data-bs-target="#botas-m" class="fw-bold text-start nav-link text-colored">Botas</button>
+                                        <button type="button" data-bs-toggle="tab" data-bs-target="#sapatos-sociais" class="fw-bold text-start nav-link text-colored">Sapatos Sociais</button>
+                                    </nav>
+                                </aside>
+                                <div class="col-md-10">
+                                    <div class="tab-content">
+                                        <div class="tab-pane active" id="chinelos-m">
+                                            <div class="row">
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/masculino/Chinelos1.JPG" alt="Chinelos">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Chinelos X</h5>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/masculino/Chinelos2.JPG" alt="Chinelos">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Chinelos Y</h5>
+                                                </div><div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/masculino/Chinelos3.JPG" alt="Chinelos">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Chinelos Z</h5>
+                                                </div>                                        
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="sapatenis">
+                                            <div class="row">                                              
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/masculino/Sapatenis1.JPG" alt="Sapatenis">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Sapatenis X</h5>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/masculino/Sapatenis2.JPG" alt="Sapatenis">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Sapatenis Y</h5>
+                                                </div><div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/masculino/Sapatenis3.JPG" alt="Sapatenis">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Sapatenis Z</h5>
+                                                </div>                                
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="tenis-m">
+                                            <div class="row">                                                
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/masculino/Tenis1.JPG" alt="Tênis">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Tênis X</h5>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/masculino/Tenis2.JPG" alt="Tênis">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Tênis Y</h5>
+                                                </div><div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/masculino/Tenis3.JPG" alt="Tênis">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Tênis Z</h5>
+                                                </div>                                
+                                            </div>
+                                        </div>    
+                                        <div class="tab-pane" id="botas-m">
+                                                <div class="row">                                                    
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/masculino/Bota1.JPG" alt="Botas">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Botas X</h5>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/masculino/Bota2.JPG" alt="Botas">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Botas Y</h5>
+                                                </div><div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/masculino/Bota3.JPG" alt="Botas">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Botas Z</h5>
+                                                </div>                            
+                                                </div>
+                                        </div>    
+                                        <div class="tab-pane" id="sapatos-sociais">
+                                                <div class="row">                                                    
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/masculino/Sapatos-Social1.JPG" alt="Sapatos Sociais">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Sapatos Sociais X</h5>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/masculino/Sapatos-Social2.JPG" alt="Sapatos Sociais">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Sapatos Sociais Y</h5>
+                                                </div><div class="col-md-3">
+                                                    <img class="d-block w-100 rounded" src="images/produtos/masculino/Sapatos-Social3.JPG" alt="Sapatos Sociais">
+                                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                                    <h5 class="text-colored fw-bold mt-2 text-center mb-4">Sapatos Sociais Z</h5>
+                                                </div>                                                               
+                                                </div>
+                                        </div>    
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>                            
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </section>
+    <section id="contato" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+            </div>
+            <div class="row justify-content-center text-center">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                            <input type="text" id="nome" class="form-control" required name="nome">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                            <input type="email" id="email" class="form-control" required name="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                            <input type="tel" id="telefone" class="form-control" name="telefone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                            <textarea class="form-control" id="mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                    <div class="row">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Redes sociais
+                        </h3>
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5 ms-1 me-1">
+                                <a href="#">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row mt-4">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-cursor-fill"></i>
+                            Endereço
+                        </h3>                        
+                        <p>Rua da EBAC, n 10, Bairro Ali - Sei lá onde - BR</p>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </section>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#telefone').mask('(00) 00000-0000', {
+        placeholder: '(DDD) 00000-0000'
+            })
+
+            $('form').validate({
+                rules: {
+                    nome: {
+                        required: true
+                    },
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                    telefone: {
+                        required: false 
+                    },                    
+                    mensagem: {
+                        required: true,
+                    }                
+                },
+        messages: {
+            nome: 'Por favor, insira o seu nome',
+            email: 'Por favor, insira o seu email válido'
+        },
+        submitHandler: function(form) {
+            console.log(form)
+        },
+        invalidHandler: function(evento, validador) {
+            let camposIncorretos = validador.numberOfInvalids();
+            if (camposIncorretos) {
+                alert(`Existem ${camposIncorretos} campos incorretos`)
+            }
+        }
+    })
+        })
+    </script>
+</body>
+</html>
